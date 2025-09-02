@@ -28,7 +28,7 @@ The model uses gameplay features **ammo usage** and **level difficulty** to esti
    - Created a DataFrame to visualize actual vs predicted times.  
 
 ## Recommendations for Improvement  
-- Data Quality & Preparation: Ensure the dataset is fully cleaned and validated to avoid biased inputs.
-- Feature Engineering: consider additional features (e.g., player skill history, weapon type, or map layout) to strengthen predictive power.
-- Model Selection & Tuning: Test alternative regression algorithms and optimise hyperparameters.
-- Deployment Considerations: Package the model into a production-ready environment capable of receiving live player data and returning predictions in real time.
+- **Data Quality & Preparation:** Ensure the dataset is fully cleaned and validated to avoid biased inputs.
+- **Feature Engineering:** consider additional features (e.g., player skill history, weapon type, or map layout) to strengthen predictive power.
+- **Model Selection & Tuning:** Test alternative regression algorithms and optimise hyperparameters.
+- **Deployment Considerations:** Package the model into a production-ready environment capable of receiving live player data and returning predictions in real time.
