@@ -1,4 +1,4 @@
-# 🎮 Player Performance Prediction Model  
+# 🎮 Player Performance Prediction Model
 
 ## Overview  
 This project builds a **Random Forest Regression** model in Python to predict how long players take to complete a video game level.  
