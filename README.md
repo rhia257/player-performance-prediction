@@ -2,7 +2,7 @@
 
 ## Overview  
 This project builds a **Random Forest Regression** model in Python to predict how long players take to complete a video game level.  
-The model uses gameplay features such as **ammo usage** and **level difficulty** to estimate **completion time**.  
+The model uses gameplay features **ammo usage** and **level difficulty** to estimate **completion time**.  
 
 ## Business Application  
 - **Player Engagement:** Turn predictions into real-time challenges (e.g., “Our model predicts you’ll finish in 98s — can you beat it?”).  
@@ -28,7 +28,7 @@ The model uses gameplay features such as **ammo usage** and **level difficulty**
    - Created a DataFrame to visualize actual vs predicted times.  
 
 ## Recommendations for Improvement  
-- Improve dataset quality and ensure it’s fully validated.  
-- Add more features (e.g., player history, weapon types).  
-- Test alternative regression models and tune hyperparameters.  
-- Deploy the model for real-time predictions.
+- Data Quality & Preparation: Ensure the dataset is fully cleaned and validated to avoid biased inputs.
+- Feature Engineering: consider additional features (e.g., player skill history, weapon type, or map layout) to strengthen predictive power.
+- Model Selection & Tuning: Test alternative regression algorithms and optimise hyperparameters.
+- Deployment Considerations: Package the model into a production-ready environment capable of receiving live player data and returning predictions in real time.
